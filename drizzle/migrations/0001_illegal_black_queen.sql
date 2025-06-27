@@ -1,0 +1,1 @@
+ÏALTER TABLE `products` ADD `store_id` integer NOT NULL REFERENCES stores(id);
